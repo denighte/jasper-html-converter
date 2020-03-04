@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.9.0.final using JasperReports Library version 6.9.0-cb8f9004be492ccc537180b49c026951f4220bf3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Generic builds html" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ff462fdf-91c5-4dc7-8160-117e218238f1">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+    <parameter name="htmlCode" class="java.lang.String"/>
+    <title>
+        <band height="742">
+            <genericElement>
+                <reportElement x="0" y="60" width="555" height="682" uuid="26f17132-a10a-4f94-847c-7875cad64c5a"/>
+                <genericElementType namespace="http://jasperreports.sourceforge.net/jasperreports/html" name="htmlelement"/>
+                <genericElementParameter name="htmlContent">
+                    <valueExpression><![CDATA[$P{htmlCode}]]></valueExpression>
+                </genericElementParameter>
+                <genericElementParameter name="scaleType">
+                    <valueExpression><![CDATA["RetainShape"]]></valueExpression>
+                </genericElementParameter>
+                <genericElementParameter name="verticalAlign">
+                    <valueExpression><![CDATA["Top"]]></valueExpression>
+                </genericElementParameter>
+                <genericElementParameter name="horizontalAlign">
+                    <valueExpression><![CDATA["Left"]]></valueExpression>
+                </genericElementParameter>
+            </genericElement>
+            <staticText>
+                <reportElement x="0" y="10" width="555" height="30" uuid="cf0c7b36-ad87-4c9d-a972-1a7de62be220"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                <text><![CDATA[HTML EXAMLE]]></text>
+            </staticText>
+        </band>
+    </title>
+</jasperReport>
